@@ -1,8 +1,8 @@
-# ofdldrm
-**Download all media from an OnlyFans account active subscriptions, including DRM protected videos.**
+> [!WARNING]
+> This script is under active development, expect some bugs.
 
-> [!NOTE]
-> You need to have [ffmpeg](https://ffmpeg.org/download.html) installed on your computer 
+# ofdldrm (Onlyfans Download DRM)
+**Download all media from OnlyFans subscriptions, including DRM protected videos (requires [ffmpeg](https://ffmpeg.org/download.html))**
 
 [Download](https://github.com/ztkw/ofdldrm/releases) the executable compatible with your operating system:
 
@@ -11,8 +11,8 @@
 - For new Mac M1/M2 : ofdldrm-macos-arm64
 - For old Mac (Intel) : ofdldrm-macos-x64
 
-Open a terminal in the directory where the executable is located.  
-Run the executable with `./ofdldrm-win-x64.exe` (windows) or `./ofdldrm-****` (on Mac/linux)  
+Open a new terminal inside the directory where the executable is located.  
+Run the executable with `./ofdldrm-win-x64.exe` (on windows) or `./ofdldrm-****` (on Mac/linux)  
 A new file `auth.json` will be created next to the executable.
 ```
 {
@@ -39,13 +39,14 @@ This information can be found on onlyfans.com :
 3. Click on the Network tab
 4. Refresh the page
 5. In the requests list, find and click on the request named 'me'
-6. On the tab that just opened, click on the Headers tab
-7. Find 'X-BC' at the bottom
-8. Find the 'User-Agent'
-9. Find 'auth_id' and 'sess' inside the Cookie variable
+6. Find the 4 variables as shown in the screenshot below
+   
+![image](https://github.com/ztkw/ofdldrm/blob/main/authinfo.png)
 
-After filling the information inside the `auth.json` file, re-run the executable with `./ofdldrm-win-x64.exe` (windows) or `./ofdldrm-****` (on Mac/linux)
+After copy/pasting the 4 variables into the `auth.json` file, re-run the executable with `./ofdldrm-win-x64.exe` (windows) or `./ofdldrm-****` (on Mac/linux)  
 
-All the media will be downloaded to a new folder named `downloads` next to the executable.
+All the media will be downloaded to a new folder named `downloads` next to the executable.  
 
-A progress bar will show the download progress.
+A progress bar will show the download progress.  
+
+Enjoy !
