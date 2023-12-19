@@ -12,6 +12,7 @@
 - For old Mac (Intel) : ofdldrm-macos-x64
 
 Open a new terminal inside the directory where the executable is located.  
+On MacOS and linux, make the program executable by running the command `chmod +x ./ofdldrm-****`  
 Run the executable with `./ofdldrm-win-x64.exe` (on windows) or `./ofdldrm-****` (on Mac/linux)  
 > [!WARNING]
 > On MacOS, you will get an error "unidentified developer"  
