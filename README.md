@@ -2,10 +2,9 @@
 **Download all media from an OnlyFans account active subscriptions, including DRM protected videos.**
 
 > [!NOTE]
-> The script is compiled into a single executable.  
-> No installation is required
+> You need to have [ffmpeg](https://ffmpeg.org/download.html) installed on your computer 
 
-Just [download](https://github.com/ztkw/ofdldrm/releases) the executable compatible with your operating system:
+[Download](https://github.com/ztkw/ofdldrm/releases) the executable compatible with your operating system:
 
 - For windows : ofdldrm-win-x64.exe
 - For linux : ofdldrm-linux-x64
