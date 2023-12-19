@@ -5,7 +5,7 @@
 > The script is compiled into a single executable.  
 > No installation is required
 
-Just download the executable compatible with your operating system:
+Just [download](https://github.com/ztkw/ofdldrm/releases) the executable compatible with your operating system:
 
 - For windows : ofdldrm-win-x64.exe
 - For linux : ofdldrm-linux-x64
