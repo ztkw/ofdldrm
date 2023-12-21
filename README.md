@@ -54,4 +54,6 @@ All the media will be downloaded to a new folder named `downloads` next to the e
 
 A progress bar will show the download progress.  
 
+![image](https://github.com/ztkw/ofdldrm/blob/main/progress.png)
+
 Enjoy !
